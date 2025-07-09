@@ -3,7 +3,7 @@ package Domain;
 public class SmartPhone implements IPod, Phone, Internet {
     @Override
     public void Tocar() {
-        System.out.println("Tocando: ");
+        System.out.println("Tocando Música atual ");
     }
 
     @Override
@@ -39,7 +39,7 @@ public class SmartPhone implements IPod, Phone, Internet {
 
     @Override
     public void Atender() {
-        System.out.println("Atendeu!");
+        System.out.println("Chamada em andamento!");
     }
 
     @Override
